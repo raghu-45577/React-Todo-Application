@@ -45,3 +45,7 @@ React-Todo-App
 - Run the command **npm i** or **npm install** for installing all the required dependencies.
 - Now Run the command **npm start**.
 - Open the browser and navigate to **http://localhost:3000/** to start the application.
+
+### Hosting link
+
+- https://todo-list-125d3.web.app
