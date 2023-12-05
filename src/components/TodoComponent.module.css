@@ -1,0 +1,87 @@
+/* styling for todo component */
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the heading of the application */
+.heading {
+  color: rgb(101, 123, 247);
+}
+
+.todoContainer {
+  width: 75%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling for the form input element and the button */
+.todoForm {
+  width: 60%;
+  height: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.todoForm input {
+  width: 60%;
+  height: 60%;
+  border-radius: 1rem;
+  padding-left: 20px;
+  font-size: medium;
+}
+
+.todoForm button {
+  width: 20%;
+  height: 40%;
+  border: solid white 2px;
+  color: white;
+  border-radius: 1rem;
+  font-weight: bolder;
+}
+
+.addBtn {
+  background-color: rgb(48, 236, 48);
+}
+
+/* styling for the populated todo items */
+.todoItems {
+  width: 55%;
+  height: 400px;
+  overflow-y: scroll;
+  background-color: rgb(101, 123, 247);
+}
+
+.todo {
+  height: 20%;
+  width: 100%;
+  background-color: rgb(101, 123, 247);
+  color: white;
+  border: solid black 1px;
+}
+
+.todo button {
+  color: white;
+  width: 100%;
+  height: 40px;
+  border: solid white 1px;
+  border-radius: 0.2rem;
+  font-weight: bold;
+}
+
+.editBtn {
+  background-color: rgb(19, 67, 224);
+}
+
+.deleteBtn {
+  background-color: rgb(245, 35, 35);
+}
